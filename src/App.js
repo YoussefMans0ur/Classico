@@ -5,7 +5,7 @@ import ClassicoCalculator from "./Components/ClassicoCalculator/ClassicoCalculat
 import Footer from './Components/Footer/Footer';
 
 
-const routers = createHashRouter([
+const routers = createBrowserRouter([
   {
     path: "/",
     element: <h1 style={{ textAlign: "center", marginTop: "2rem" }}>Welcome to Classico 🎮</h1>,
